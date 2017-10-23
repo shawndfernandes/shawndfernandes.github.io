@@ -26,12 +26,6 @@
         transition: background-color 2s ease-out;
     }
 
-    .navbar a:hover {
-        background-color: #ddd;
-        cursor: pointer;
-        color: white;
-    }
-
     .navbar a.active {
         float: left;
         background-color: #0CAA40;
@@ -42,6 +36,14 @@
         text-decoration: none;
         font-size: 17px;
     }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        cursor: pointer;
+        color: white;
+    }
+
+
 
 
 
