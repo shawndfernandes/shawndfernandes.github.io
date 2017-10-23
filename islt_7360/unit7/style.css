@@ -7,15 +7,7 @@
     width: 100%;
 }
 
-    .navbar a.selected:active, a.selected:link, a.selected:visited {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+
 
     .navbar a {
         float: left;
@@ -40,6 +32,17 @@
         background-color: #ddd;
         cursor: pointer;
         color: white;
+    }
+
+    .navbar a:active {
+        float: left;
+        background-color: #ddd;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
     }
 
 .main {
