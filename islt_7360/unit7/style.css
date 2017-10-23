@@ -7,8 +7,6 @@
     width: 100%;
 }
 
-
-
     .navbar a {
         float: left;
         display: block;
@@ -34,9 +32,9 @@
         color: white;
     }
 
-    .navbar a:active {
+    .navbar a.active {
         float: left;
-        background-color: #ddd;
+        background-color: #0CAA40;
         display: block;
         color: #f2f2f2;
         text-align: center;
@@ -44,6 +42,8 @@
         text-decoration: none;
         font-size: 17px;
     }
+
+
 
 .main {
     padding: 16px;
