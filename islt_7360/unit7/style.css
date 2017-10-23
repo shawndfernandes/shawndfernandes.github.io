@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-    .navbar selected:active, selected:link, selected:visited {
+    .navbar a.selected:active, a.selected:link, a.selected:visited {
         float: left;
         display: block;
         color: #f2f2f2;
